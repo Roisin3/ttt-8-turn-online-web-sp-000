@@ -12,11 +12,7 @@ def input_to_index(user_input)
 end
 
 def valid_move?(board, index)
-  if index.between?(0,8)
-    #if !position_taken? (board, index)
-      #true
-    #end
-  end
+  index.between?(0,8)
 end
 
 def move(board, index, choice = "X")
