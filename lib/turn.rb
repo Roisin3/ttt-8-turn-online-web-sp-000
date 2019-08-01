@@ -30,7 +30,7 @@ def turn
   if valid_move?(board, index)
     display_board(board)
   else
-    puts = "Please enter valid option:"
+    puts = "Please enter 1-9:"
   end
 end
 
