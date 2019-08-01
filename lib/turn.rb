@@ -13,6 +13,9 @@ end
 
 def valid_move?(board, index)
   index.between?(0,8)
+  if position_valid?
+    true
+  end
 end
 
 def move(board, index, choice = "X")
@@ -29,3 +32,8 @@ def turn
     puts = "Please enter valid option:"
   end
 end
+
+def position_valid?(board, index)
+  board[index] = " " || board[index] = ""
+end
+  
