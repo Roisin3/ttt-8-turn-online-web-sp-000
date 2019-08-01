@@ -20,7 +20,7 @@ def valid_move?(board, index)
 end
 
 def move(board, index, choice = "X")
-  board(index) == choice
+  board(index) = choice
 end
 
 def turn
