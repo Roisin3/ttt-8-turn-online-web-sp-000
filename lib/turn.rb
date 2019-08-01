@@ -33,6 +33,6 @@ def turn
 end
 
 def position_valid?(board, index)
-  board[index] = " " || board[index] = ""
+  board[index] = " "
 end
   
